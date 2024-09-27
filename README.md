@@ -195,7 +195,7 @@ public void setName(String name) {
 }
 ```
 
-## [소프트퍼즐 템플릿 작성 규칙]
+## [M1ngyun 템플릿 작성 규칙]
 - 작성 규칙은 스웨거 기준
 
 ### Controller
