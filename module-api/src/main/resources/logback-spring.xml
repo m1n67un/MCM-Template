@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration>
+
+<configuration>
+    
+    <include resource="org/springframework/boot/logging/logback/defaults.xml" />
+    <include resource="org/springframework/boot/logging/logback/console-appender.xml" />
+    
+    <springProfile name="local">
+        <include resource="config/logback/logback-local.xml" />
+    </springProfile>
+
+    <springProfile name="dev">
+        <include resource="config/logback/logback-dev.xml" />
+    </springProfile>
+
+    <springProfile name="prd">
+        <include resource="config/logback/logback-prd.xml" />
+    </springProfile>
+
+</configuration>

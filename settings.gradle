@@ -1,0 +1,6 @@
+rootProject.name = 'MGMODULE'
+include 'module-core'
+include 'module-api'
+include 'module-batch'
+include 'module-eureka'
+include 'module-gateway'

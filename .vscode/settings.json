@@ -1,0 +1,14 @@
+{
+    "java.checkstyle.configuration": "${workspaceFolder}\\config\\custom-checkstyle-rules.xml",
+    "java.checkstyle.properties": {
+        "suppressionFile": "${workspaceFolder}/config/custom-checkstyle-suppressions.xml"
+    },
+    "java.checkstyle.version": "8.42",
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.format.enabled": true,
+    "editor.formatOnSave": true,
+    "java.completion.enabled": true,
+    "java.signatureHelp.enabled": true,
+    "java.format.comments.enabled": true
+}

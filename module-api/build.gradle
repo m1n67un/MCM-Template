@@ -1,0 +1,12 @@
+dependencies {
+
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    testCompileOnly 'org.projectlombok:lombok:1.18.24'
+    // SMTP(메일) 관련 설정
+    implementation 'org.springframework.boot:spring-boot-starter-mail'
+    implementation 'com.sun.mail:jakarta.mail:2.0.1'
+    //이미지썸네일
+    implementation 'net.coobird:thumbnailator:0.4.8'
+    // AOP
+    implementation "org.springframework.boot:spring-boot-starter-aop"
+}
